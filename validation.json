@@ -1,0 +1,29 @@
+{
+  "version": "1.0.1",
+  "shared_ffi_clashing_prototypes": "passed",
+  "readonly_page_write": "passed",
+  "combined_lifecycle": "passed",
+  "fingerprint_and_sha_fallback": "passed",
+  "legacy_coexistence": "passed",
+  "off_boundary_scheduling": "passed",
+  "no_prior_update": "passed",
+  "lua_syntax": "passed",
+  "zip_crc": "passed",
+  "assets": "identical to v1.0.0",
+  "mock_read_counts": {
+    "v1.0.0": {
+      "boot_reads": 6,
+      "steady_reads_6000_frames": 60,
+      "shutdown_reads": 6,
+      "full_dll_hashes": 1
+    },
+    "v1.0.1": {
+      "boot_reads": 3,
+      "steady_reads_6000_frames": 30,
+      "shutdown_reads": 3,
+      "full_dll_hashes": 0
+    }
+  },
+  "gameplay": "v1.0.1 not yet tested in game",
+  "zip_sha256": "4e031dacce6317484bd08e960d2f20baeec7b0e473e736a43299a579dfd53d00"
+}
